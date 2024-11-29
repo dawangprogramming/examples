@@ -5,5 +5,9 @@ image_resource:
   source: { mirror_self: true }
 
 run:
-  path: date
-  args: ["+%Y-%m-%d"]
+#  path: date
+#  args: ["+%Y-%m-%d"]
+  args:
+  - -cx
+  - |
+    find .
