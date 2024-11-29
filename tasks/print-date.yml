@@ -9,3 +9,5 @@ run:
   - -cx
   - |
     find .
+    pwd
+    whoami
